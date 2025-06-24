@@ -1,0 +1,391 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trithes</title>
+        <meta name="description" content="Trithes is an advanced Python CLI tool for forensic steganography, designed to detect, extract and embed hidden data in images with professional precision.">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="nav-blur">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="nav-logo">Trithes 2.0.0</div>
+                    <div class="nav-menu">
+                        <a href="#features" class="nav-link">Features</a>
+                        <a href="#installation" class="nav-link">Installation</a>
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="https://github.com/pTheDevoted/Trithes" target="_blank" class="btn-primary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-gradient">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        You Forensic Tool
+                        <span class="gradient-text">Trithes</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Trithes is an advanced Python CLI tool for forensic steganography, 
+                        designed to detect, extract and embed hidden data in images with professional precision.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="https://github.com/pTheDevoted/Trithes" target="_blank" class="btn-primary">
+                            Explore on GitHub
+                        </a>
+                        <a href="#installation" class="btn-secondary">
+                            Installation Guide
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stats-item reveal">
+                        <div class="stats-number">100%</div>
+                        <div class="stats-label">Made In Python</div>
+                    </div>
+                    <div class="stats-item reveal">
+                        <div class="stats-number">6</div>
+                        <div class="stats-label">Core Features</div>
+                    </div>
+                    <div class="stats-item reveal">
+                        <div class="stats-number">130</div>
+                        <div class="stats-label">Supported Formats For Scan</div>
+                    </div>
+                    <div class="stats-item reveal">
+                        <div class="stats-number">4</div>
+                        <div class="stats-label">Supported Formats For Steganograpy</div>
+                    </div>
+                    <div class="stats-item reveal">
+                        <div class="stats-number">100%</div>
+                        <div class="stats-label">Open Source</div>
+                    </div>
+                    <div class="stats-item reveal">
+                        <div class="stats-number">MIT</div>
+                        <div class="stats-label">License</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text reveal">
+                        <h2 class="section-title">Advanced Bit Manipulation Techniques</h2>
+                        <p class="section-subtitle">
+                            Developed with focus on versatility and practicality, Trithes employs 
+                            sophisticated algorithms to ensure high-precision forensic operations.
+                        </p>
+                    </div>
+                    <div class="about-grid">
+                        <div class="about-description reveal">
+                            <h3 class="about-heading">Integrity and Efficiency</h3>
+                            <p class="about-paragraph">
+                                Our approach ensures that steganography operations maintain visual 
+                                integrity of images while incorporating data securely and undetectably.
+                            </p>
+                            <p class="about-paragraph">
+                                With native support for multiple image formats and analysis engines, 
+                                Trithes stands out as an essential tool for digital security professionals.
+                            </p>
+                        </div>
+                        <div class="about-card reveal floating">
+                            <div class="card">
+                                <div class="card-icon">🔬</div>
+                                <h4 class="card-title">Forensic Analysis</h4>
+                                <p class="card-description">
+                                    Detection and extraction of hidden data with professional precision
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <div class="features-header reveal">
+                    <h2 class="section-title">Core Features</h2>
+                    <p class="section-subtitle">
+                        Functionalities developed to meet the most demanding requirements of digital forensic analysis
+                    </p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">🔐</div>
+                        <h3 class="feature-title">Message Embedding</h3>
+                        <p class="feature-description">Incorporates user-defined messages into image metadata using advanced bit manipulation techniques, ensuring visual integrity.</p>
+                        <div class="tech-badge">Pillow + piexif</div>
+                    </div>
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">🔍</div>
+                        <h3 class="feature-title">Metadata Scanning</h3>
+                        <p class="feature-description">Comprehensive scanning using ExifTool as engine, detecting hidden data with maximum precision and compatibility.</p>
+                        <div class="tech-badge">ExifTool</div>
+                    </div>
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">🧹</div>
+                        <h3 class="feature-title">Secure Cleaning</h3>
+                        <p class="feature-description">Complete and secure removal of all embedded metadata, ensuring total file cleaning and data sanitization.</p>
+                        <div class="tech-badge">ExifTool CLI</div>
+                    </div>
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">⚙️</div>
+                        <h3 class="feature-title">EXIF Decoding</h3>
+                        <p class="feature-description">Manual decoding of EXIF tags with detailed analysis of data structures in JPEG/JPG files.</p>
+                        <div class="tech-badge">piexif</div>
+                    </div>
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">🛡️</div>
+                        <h3 class="feature-title">Error Resilience</h3>
+                        <p class="feature-description">Rigorous validation and robust exception handling, preventing file corruption during operations.</p>
+                        <div class="tech-badge">Python Core</div>
+                    </div>
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">💻</div>
+                        <h3 class="feature-title">Professional UX</h3>
+                        <p class="feature-description">Command-line interface with colored feedback and consistent messaging for professional terminal experience.</p>
+                        <div class="tech-badge">pystyle</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies Section -->
+        <section class="technologies-section">
+            <div class="container">
+                <div class="technologies-header reveal">
+                    <h2 class="section-title">Technology Stack</h2>
+                    <p class="section-subtitle">
+                        Built with the best tools and libraries for maximum reliability
+                    </p>
+                </div>
+                <div class="technologies-grid">
+                    <div class="tech-card reveal">
+                        <div class="tech-header">
+                            <h3 class="tech-name">Python</h3>
+                            <span class="tech-version">3.8+</span>
+                        </div>
+                        <p class="tech-category">Core Language</p>
+                    </div>
+                    <div class="tech-card reveal">
+                        <div class="tech-header">
+                            <h3 class="tech-name">Pillow</h3>
+                            <span class="tech-version">Built-in</span>
+                        </div>
+                        <p class="tech-category">Image Processing</p>
+                    </div>
+                    <div class="tech-card reveal">
+                        <div class="tech-header">
+                            <h3 class="tech-name">rich</h3>
+                            <span class="tech-version">Built-in</span>
+                        </div>
+                        <p class="tech-category">CLI Formatting</p>
+                    </div>
+                    <div class="tech-card reveal">
+                        <div class="tech-header">
+                            <h3 class="tech-name">piexif</h3>
+                            <span class="tech-version">Built-in</span>
+                        </div>
+                        <p class="tech-category">EXIF Handling</p>
+                    </div>
+                    <div class="tech-card reveal">
+                        <div class="tech-header">
+                            <h3 class="tech-name">ExifTool</h3>
+                            <span class="tech-version">Built-in</span>
+                        </div>
+                        <p class="tech-category">Metadata Engine</p>
+                    </div>
+                    <div class="tech-card reveal">
+                        <div class="tech-header">
+                            <h3 class="tech-name">os</h3>
+                            <span class="tech-version">Built-in</span>
+                        </div>
+                        <p class="tech-category">Filesystem operations</p>
+                    </div>
+                    <div class="tech-card reveal">
+                        <div class="tech-header">
+                            <h3 class="tech-name">subprocess</h3>
+                            <span class="tech-version">Built-in</span>
+                        </div>
+                        <p class="tech-category">Process Management</p>
+                    </div>
+                    <div class="tech-card reveal">
+                        <div class="tech-header">
+                            <h3 class="tech-name">pystyle</h3>
+                            <span class="tech-version">Built-in</span>
+                        </div>
+                        <p class="tech-category">CLI Styling</p>
+                    </div>
+                    <div class="tech-card reveal">
+                        <div class="tech-header">
+                            <h3 class="tech-name">argparse</h3>
+                            <span class="tech-version">Latest</span>
+                        </div>
+                        <p class="tech-category">Arguments Mode</p>
+                    </div>
+                    <div class="tech-card reveal">
+                        <div class="tech-header">
+                            <h3 class="tech-name">InquirerPy</h3>
+                            <span class="tech-version">Built-in</span>
+                        </div>
+                        <p class="tech-category">Menu Mode</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Installation Section -->
+        <section id="installation" class="installation-section">
+            <div class="container">
+                <div class="installation-header reveal">
+                    <h2 class="section-title">Installation Guide</h2>
+                    <p class="section-subtitle">
+                        Simple and straightforward installation process to get started in minutes
+                    </p>
+                </div>
+
+                <div class="installation-content">
+                    <div class="terminal reveal">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <div class="terminal-dot red"></div>
+                                <div class="terminal-dot yellow"></div>
+                                <div class="terminal-dot green"></div>
+                            </div>
+                            <span class="terminal-title">Terminal</span>
+                        </div>
+                        <div class="terminal-content">
+                            <div class="terminal-line">
+                                <span class="comment"># Clone the repository</span>
+                                <div class="command">git clone https://github.com/pTheDevoted/Trithes</div>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="comment"># Navigate to directory</span>
+                                <div class="command">cd Trithes</div>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="comment"># Run installation script</span>
+                                <div class="command">bash install.sh</div>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="comment"># Activate virtual environment</span>
+                                <div class="command">source trithes_env/bin/activate</div>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="comment"># Run Trithes In Menu Mode</span>
+                                <div class="command">python3 trithes.py</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="installation-note reveal">
+                        <div class="note-icon">ℹ️</div>
+                        <div class="note-content">
+                            <p class="note-title">Prerequisite</p>
+                            <p class="note-description">Git must be installed on the system before execution</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compatibility Section -->
+        <section class="compatibility-section">
+            <div class="container">
+                <div class="compatibility-header reveal">
+                    <h2 class="section-title">Platform Compatibility</h2>
+                    <p class="section-subtitle">
+                        Optimized support for major Linux distributions used in forensic analysis
+                    </p>
+                </div>
+                <div class="compatibility-grid">
+                    <div class="compatibility-card reveal">
+                        <div class="compatibility-info">
+                            <h3 class="compatibility-platform">Ubuntu</h3>
+                            <p class="compatibility-description">Completely tested and optimized</p>
+                        </div>
+                        <div class="status-stable">Fully Stable</div>
+                    </div>
+                    <div class="compatibility-card reveal">
+                        <div class="compatibility-info">
+                            <h3 class="compatibility-platform">Termux</h3>
+                            <p class="compatibility-description">Installation may present instabilities</p>
+                        </div>
+                        <div class="status-partial">Partially Stable</div>
+                    </div>
+                    <div class="compatibility-card reveal">
+                        <div class="compatibility-info">
+                            <h3 class="compatibility-platform">Kali Linux</h3>
+                            <p class="compatibility-description">Requires additional configuration in some cases</p>
+                        </div>
+                        <div class="status-partial">Partially Stable</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-header reveal">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-subtitle">
+                        Contact for technical support, collaborations or feedback about the project
+                    </p>
+                </div>
+                <div class="contact-grid">
+                    <a href="https://discord.com/users/thedevoted" target="_blank" class="contact-link reveal">
+                        <div class="contact-icon discord">💬</div>
+                        <div class="contact-info">
+                            <h3 class="contact-title">Discord</h3>
+                            <p class="contact-username">thedevoted</p>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/pedrodevoted" target="_blank" class="contact-link reveal">
+                        <div class="contact-icon instagram">📷</div>
+                        <div class="contact-info">
+                            <h3 class="contact-title">Instagram</h3>
+                            <p class="contact-username">pedrodevoted</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <h3 class="footer-title">Trithes</h3>
+                    <p class="footer-description">
+                        Advancing forensic steganography through innovative Python solutions
+                    </p>
+                </div>
+                <div class="footer-bottom">
+                    <p class="footer-copyright">
+                        © 2024 Trithes • MIT License • Open Source Forensic Tool
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+    </html>
